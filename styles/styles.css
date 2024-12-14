@@ -1,5 +1,16 @@
+/* Use of root */
+:root {
+
+    --background-color: rgb(58, 112, 160);
+    --padding: 2px;
+    --border: 1px;
+    --width:150px;
+    --height: auto;
+
+}
+
 nav {
-background-color: rgb(58, 112, 160);
+background-color: var(--background-color);
 padding: 10px;
 
 }
@@ -12,14 +23,14 @@ nav a {
 }
 
 h1 {
-    color: rgb(58, 112, 160);
+    color: var(--background-color);
 }
 
 img {
-    width:150px;
-    height:auto;
-    border: 1px solid black;
-    padding: 2px;
+    width:var(--width);
+    height:var(--height);
+    border: var(--border) solid black;
+    padding: var(--padding);
     box-shadow: 0 0 30px gray;
 }
 
@@ -32,10 +43,10 @@ main {
 }
 
 main img{
-    width:150px;
-    height: auto;
-    border: 1px solid lightblue;
-    padding: 2px;
+    width:var(--width);
+    height: var(--height);
+    border: var(--border) solid lightblue;
+    padding: var(--padding);
     box-shadow: 0 0 30px gray;
 
 }
@@ -43,7 +54,7 @@ main img{
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgb(0 0 0 /0.2); /* 1 */
+    border: var(--border) solid rgb(0 0 0 /0.2); /* 1 */
     padding: 1rem;
     background-color: #eee;
     color: #333;
@@ -52,11 +63,11 @@ aside {
 
 aside img{
     width: 200px;
-    height: auto;
+    height: var(--height);
 }
 
 footer{
     margin-top:15px;
-    border-top: 1px solid #000;
+    border-top: var(--border) solid #000;
     text-align: center;
 }
