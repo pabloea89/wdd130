@@ -1,0 +1,139 @@
+:root {
+    --primary-color: #D4DFC7; 
+    --secondary-color: #9BBFB8; 
+    --accent-color: #558B82 ; 
+    --background-color: #595F5A ; 
+    --text-color: white; 
+   
+}
+  
+  /* Body*/
+  body {
+    font-family:"lato", sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Header*/
+  header {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: left;
+    padding: 20px;
+    
+  }
+
+  header img{
+    width :200px ;
+    height:auto;
+
+  }
+  
+  /* Main Heading (h1) */
+  h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: white;
+  }
+  
+  /* Subheading and Paragraph */
+  header p {
+    font-size: 1.2em;
+    color: white;
+    margin-top: 10px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    position: relative;
+    width: 100%;
+  }
+  
+  .hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .hero article {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 70%;
+    background-color: rgba(22, 33, 12, 0.5); 
+    padding: 20px;
+    color: white;
+    opacity: 0.8;
+  }
+  
+  .hero h2 {
+    font-size: 2.5em;
+    color: white;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    color: white;
+  }
+  
+  .hero article img {
+    float: right;
+    margin-left: 20px;
+    width: 40%;
+    border-radius: 8px;
+  }
+  
+  /* Paragraph */
+  p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: var(--text-color);
+    margin-bottom: 20px;
+  }
+  
+  /* Social Media Icons */
+  footer .sociallinks a {
+    text-decoration: none;
+  }
+  
+  footer .sociallinks img {
+    width: 30px;
+    height: 30px;
+    margin: 0 15px;
+    
+  }
+  
+  /* Footer */
+  footer {
+    color: white;
+    text-align: left;
+    padding: 20px;
+  }
+  
+  footer p {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
+    /* Navigation Links */
+      nav a {
+        text-decoration: none;
+        color: var(--text-color);
+        font-size: 16px;
+      }
+      
+      nav a:hover {
+        color: var(--primary-color);
+      }
+
+  
+
+  
+ 
+  
